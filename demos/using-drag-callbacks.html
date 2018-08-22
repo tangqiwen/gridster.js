@@ -52,7 +52,7 @@
 
         gridster = $(".gridster ul").gridster({
             widget_base_dimensions: [100, 55],
-            widget_margins: [5, 5],
+            widget_margins: [20, 20],
             draggable: {
                 start: function (e, ui, $widget) {
                     log.innerHTML = 'START position: ' + ui.position.top + ' ' + ui.position.left + "<br >" + log.innerHTML;
@@ -67,6 +67,7 @@
                 }
             }
         }).data('gridster');
+		
 
 
     });
